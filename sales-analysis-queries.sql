@@ -12,6 +12,3 @@ ORDER BY Total_Sales DESC;
 SELECT Month_Name, SUM(Gross_Sales_USD) AS Monthly_Sales
 FROM fmcg
 GROUP BY Month_Name;
-SELECT Product_Category, SUM(Gross_Sales_USD) AS Total_Sales
-FROM fmcg
-GROUP BY Product_Category;
